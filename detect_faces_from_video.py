@@ -18,12 +18,12 @@ def detect_face(source):
 
     :param source: Video source
     """
+    net = cv2.dnn.readNetFromCaffe('resources/deploy.prototxt.txt',
+                                   'resources/res10_300x300_ssd_iter_140000.caffemodel')
     vc = cv2.VideoCapture(source)
     time.sleep(1)
     while True:
         _, image = vc.read()
-        net = cv2.dnn.readNetFromCaffe('resources/deploy.prototxt.txt',
-                                       'resources/res10_300x300_ssd_iter_140000.caffemodel')
         (heigth, width) = image.shape[:2]
         blob = cv2.dnn.blobFromImage(image=cv2.resize(image, (300, 300)), size=(300, 300), scalefactor=1.0,
                                      mean=(104.0, 177.0, 123.0))
