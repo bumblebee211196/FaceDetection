@@ -26,7 +26,7 @@ pip3 install -r requirements.txt
 python3 -m detect_faces_from_image -i /path/to/image/file.jpg
 ```
 
-#### b. To detect faces from video
+#### b. To detect faces from Videos
 
 ###### i. To detect faces from video files
 ```shell
