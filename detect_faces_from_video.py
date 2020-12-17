@@ -4,7 +4,7 @@ detect_faces_from_video.py: Description of what detect_faces_from_video.py does.
 
 __author__ = "S Sathish Babu"
 __date__ = "17/12/20 Thursday 12:59 PM"
-__email__ = "sathish.babu@zohocorp.com"
+__email__ = "bumblebee211196@gmail.com"
 
 import argparse
 import time
