@@ -1,6 +1,6 @@
 # FaceDetection
 
-A simple face detection application using python and opencv dnn. For detail explanataion check out my [blog]().
+A simple face detection application using python and opencv dnn. For detail explanataion check out my [blog](https://bumblebee2196.netlify.app/face-detection-using-python-and-opencv/).
 
 This was possible only due to the simple and clear explanation by Adrian Rosebrock's [blog](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/).
 
