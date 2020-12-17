@@ -4,7 +4,7 @@ detect_face.py: Description of what detect_face.py does.
 
 __author__ = "S Sathish Babu"
 __date__ = "17/12/20 Thursday 11:20 AM"
-__email__ = "sathish.babu@zohocorp.com"
+__email__ = "bumblebee211196@gmail.com"
 
 import argparse
 
